@@ -6,8 +6,10 @@ import { BuilderModule } from '@builder.io/angular';
 import { AppComponent, CustomThing } from './app.component';
 import { FooComponent } from './foo.component';
 import { CustomThingChildren } from './with-children';
+import { HeaderComponent } from './header/header.component';
+import { BenefitsComponent } from './benefits/benefits.component';
 @NgModule({
-  declarations: [AppComponent, FooComponent, CustomThing, CustomThingChildren],
+  declarations: [AppComponent, FooComponent, CustomThing, CustomThingChildren,HeaderComponent,BenefitsComponent],
   entryComponents: [CustomThing, CustomThingChildren],
   imports: [
     BrowserModule,

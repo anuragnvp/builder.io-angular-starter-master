@@ -1,0 +1,67 @@
+<p> header components</p>
+<!-- <div class="real_lading_header_main">
+  <p-toast position="top-right" life="3000"></p-toast>
+  <p-dialog header="Email" [(visible)]="display" [modal]="true" class="result_email_popup">
+    <div class="real_enquiry_form_inner">
+      <form novalidate [formGroup]="emailForm">
+        <div class="form-group">
+          <input type="text" formControlName="name" pInputText class="form-control" placeholder="Full Name" required />
+          <span class="help-block" *ngIf="(emailForm.get('name').touched ||
+          emailForm.get('name').dirty) &&
+          (emailForm.get('name').errors && emailForm.get('name').errors.required) ">
+            Please enter required field.
+          </span>
+        </div>
+        <div class="form-group">
+          <input type="text" formControlName="phone" class="form-control" pInputText placeholder="Phone Number"
+            required />
+          <span class="help-block" *ngIf="(emailForm.get('phone').touched ||
+          emailForm.get('phone').dirty) &&
+          (emailForm.get('phone').errors && emailForm.get('phone').errors.required)">
+            Please enter required field.
+          </span>
+        </div>
+        <div class="form-group">
+          <input type="text" formControlName="email" class="form-control" pInputText placeholder="Email" required />
+          <span class="help-block" *ngIf="(emailForm.get('email').touched ||
+          emailForm.get('email').dirty) &&
+          (emailForm.get('email').errors && emailForm.get('email').errors.required)">
+            Please enter required field.
+          </span>
+        </div>
+        <div class="form-group enquiry_msg">
+          <textarea rows="4" formControlName="emailContent"
+            placeholder="Hi," cols="35" pInputTextarea></textarea>
+        </div>
+      </form>
+      <div class="real_enquiry_send">
+        <button type="button" (click)="sendMessage()" [disabled]="!emailForm.valid"
+          class="bg-pink btn-fill bg-fill-pink">Send Mail</button>
+      </div>
+    </div>
+  </p-dialog>
+  <header class="header">
+    <div class="row real_landing_head">
+      <div class="real_landing_head_single">
+        <div class="col-md-10 real_landing_user">
+          <img [src]="logoUrl"
+          alt="No Logo">
+          <div class="real_landing_user_detail">
+            <h4>{{brandpage.contactInformation?.companyName}}</h4>
+            <span class="landing_dekstop landing_line">|</span>
+            <a href="tel:{{brandpage.contactInformation?.primaryPhone}}">
+              {{brandpage.contactInformation?.primaryPhone}}</a>
+            <span class="landing_dekstop landing_dot"><i class="fa fa-circle" aria-hidden="true"></i></span>
+            <a (click)="display=true;" class="real_dekstop_landing_user">{{brandpage.accountEmail}}</a>
+            <a (click)="display=true;" class="real_mobile_landing_user">Email Me</a>
+          </div>
+        </div>
+        <div class="col-md-2 real_landing_right" *ngIf="logoUrl">
+          <img
+          [src]="logoUrl"
+          alt="No Logo">
+        </div>
+      </div>
+    </div>
+  </header>
+</div> -->
