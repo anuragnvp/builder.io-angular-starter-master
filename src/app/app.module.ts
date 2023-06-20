@@ -13,7 +13,7 @@ import { BenefitsComponent } from './benefits/benefits.component';
   entryComponents: [CustomThing, CustomThingChildren],
   imports: [
     BrowserModule,
-    BuilderModule.forRoot('a54c9ecf97f8469b9d9611d82580d299'),
+    BuilderModule.forRoot('15524392d8804f10b9a0dc476aa8d2b8'),
     RouterModule.forRoot([
       {
         path: '**',
