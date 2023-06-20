@@ -23,6 +23,26 @@ BuilderBlock({
 })(CustomThing);
 
 @Component({
+  selector: 'custom-thing-new',
+  template: 'Hello: {{name}}',
+})
+export class CustomThingNew {
+  @Input()
+  name = '';
+}
+
+BuilderBlock({
+  tag: 'custom-thing-new',
+  name: 'Custom thing New',
+  inputs: [
+    {
+      name: 'name',
+      type: 'string',
+    },
+  ],
+})(CustomThingNew);
+
+@Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
