@@ -24,7 +24,7 @@ import { BuilderBlock } from '@builder.io/angular';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
   // cid: string = '';
   // brandpage: BrandedPage = new BrandedPage();
@@ -53,7 +53,7 @@ export class HeaderComponent implements OnInit {
     // this.createForm();
     //this.noImagePath = environment.noImageAvailable;
   }
-  ngOnInit() {
+  //ngOnInit() {
     // this.mailSeller.emailContent = "Hi,";
     // this.cid = Utils.getCookie('LeadCookieId');
     // if (this.cid != undefined && this.cid.length > 0 && !this.isLoaded) {
@@ -68,7 +68,7 @@ export class HeaderComponent implements OnInit {
     //       }, error: (error) => { }
     //     });
     // }
-  }
+  //}
   // createForm() {
   //   this.emailForm = this.fb.group({
   //     name: [this.mailSeller.name, [Validators.required]],
